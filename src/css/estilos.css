@@ -13,6 +13,25 @@ header {
     border-bottom: 4px solid #0000a8;
 }
 
+.botão {
+  
+  height: 50px;
+  width: 180px;
+  border-radius: 50px;  
+  background-color: #007bff; 
+  color: #fff; 
+  text-align: center; 
+  line-height: 50px;  
+  font-size: 15px; 
+  text-decoration: none; 
+  display: grid;
+  transition: all, 0.9s;
+}
+.botão:hover {
+    border-bottom: #fff;
+    background-color: #000;
+}
+
 .container {
     background-color: #eee;
     min-height: 60vh;
@@ -98,8 +117,12 @@ footer {
     background-color: #0318fa;
     text-align: center;
     border-bottom: 3px solid #0000a8;
-    padding: 80px;
+    padding: 50px;
     color: #fff;
     
    
+}
+
+footer p {
+    margin-top: 20px;
 }
